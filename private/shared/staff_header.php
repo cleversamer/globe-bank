@@ -1,3 +1,9 @@
+<?PHP
+if (!isset($page_title)) {
+    $page_title = "Staff Menu";
+}
+?>
+
 <!doctype html>
 
 <html lang="en">
@@ -5,7 +11,10 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" media="all" href="/public/stylesheets/staff.css" />
-    <title>GBI</title>
+    <title>
+        GBI -
+        <?php echo $page_title; ?>
+    </title>
 </head>
 
 <body>
