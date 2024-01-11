@@ -1,12 +1,14 @@
 <!doctype html>
 
 <html lang="en">
-  <head>
+
+<head>
     <title></title>
     <meta charset="utf-8">
-  </head>
+</head>
 
-  <body>
+<body>
 
-  </body>
+</body>
+
 </html>
