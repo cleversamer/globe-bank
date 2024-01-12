@@ -9,10 +9,10 @@ if (!isset($page_title)) {
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <link rel="stylesheet" media="all" href="<?php echo url_for('/stylesheets/staff.css'); ?>" />
     <title>GBI -
-        <?php echo $page_title; ?>
+        <?php echo h($page_title); ?>
     </title>
 </head>
 
