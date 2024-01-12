@@ -1,6 +1,6 @@
-<?PHP
+<?php
 if (!isset($page_title)) {
-    $page_title = "Staff Menu";
+  $page_title = 'Staff Area';
 }
 ?>
 
@@ -9,16 +9,14 @@ if (!isset($page_title)) {
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" media="all" href="<?php echo url_for("/stylesheets/staff.css"); ?>" />
-    <title>
-        GBI -
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="all" href="<?php echo url_for('/stylesheets/staff.css'); ?>" />
+    <title>GBI -
         <?php echo $page_title; ?>
     </title>
 </head>
 
 <body>
-
     <header>
         <h1>GBI Staff Area</h1>
     </header>
@@ -26,7 +24,7 @@ if (!isset($page_title)) {
     <navigation>
         <ul>
             <li>
-                <a href="<?php echo url_for("/staff/index.php"); ?>">Menu</a>
+                <a href="<?php echo url_for('/staff/index.php'); ?>">Menu</a>
             </li>
         </ul>
     </navigation>
