@@ -1,5 +1,7 @@
 <?php
 
+ob_start(); // Output buffering is turned on
+
 // Assign file paths to PHP constants
 define("PRIVATE_PATH", dirname(__FILE__));
 define("PROJECT_PATH", dirname(PRIVATE_PATH));
